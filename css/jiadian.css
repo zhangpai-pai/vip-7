@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 公用的 */
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+th,
+td,
+a,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+input,
+p {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.main {
+    width: 1460px;
+    margin: 0 auto;
+}
+
+body {
+    width: 1920px;
+}
+
+.head {
+    width: 100%;
+    height: 173px;
+    background-color: burlywood;
+}
+
+
+
+
+
+#jiaHeader {
+    height: 60px;
+    font-size: 12px;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+#jiaHeader ul li {
+    float: left;
+}
+
+#jiaHeader .li1 {
+    color: #f10180
+}
+
+ #jianContent {
+    min-height: 320px;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 50px;
+} 
+
+.main-log {
+    height: 158px;
+    padding-top: 13px;
+}
+.con-title{
+    font-size: 14px;
+    color: #b2b2b2;
+    float: left;
+    width: 123px;
+    height: 123px;
+
+}
+.con {
+    width: 123px;
+    height: 123px;
+    border: 1px solid #f0f0f0;
+    border-top: 2px solid #f0f0f0;
+    float: left;
+    margin-top: 16px;
+}
+.con img{
+    width: 122px;
+    height: 122px;
+}
+#con{
+    text-align: center;
+    line-height: 122px;
+    font-size: 12px;
+    color: #f10180;
+}
+
+#jianContent .main-log .con:first-child {
+    margin-left: 12px;
+    font-size: 12px;
+    border: none;
+}
+#jianContent .main-log .con span{
+    display: none;
+    border: 1px solid #f10180;
+}
+#jianContent .main-log .box {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #c3b9c3;
+    margin-right: 18px;
+    float: right;
+    color: #c3b9c3;
+    line-height: 30px;
+    text-align: center
+}
+
+#jianContent .main-con {
+    height: 44px;
+    /* background: forestgreen; */
+    line-height: 36px;
+}
+
+#jianContent .main-con ul {
+    border-top: 1px dashed #c3b9c3;
+}
+
+#jianContent .main-con ul li {
+    float: left;
+    height: 35px;
+    font-size: 12px;
+    margin: 0 35px;
+    color: black
+}
+
+#jianContent .main-con ul .li1 {
+    color: #b2b2b2
+}
+
+#jianContent .main-last {
+    display: flex;
+    justify-content: center
+}
+
+#jianContent .main-last span {
+    width: 125px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px solid #b2b2b2
+}
+
+#jiaNav {
+    height: 50px;
+    line-height: 50px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+#jiaNav ul {
+    background: #f5f5f5;
+
+}
+
+#jiaNav ul li {
+    width: 70px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    border: #b2b2b2 1px solid;
+
+}
+
+#jiaNav ul li:first-child {
+    border: #f10180 1px solid;
+    color: #f10180
+}
+
+#jiaNav input {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #b2b2b2
+}
+
+#jiaNav #inp1 {
+    margin-left: 20px
+}
+
+#jiaNav #inp3 {
+    width: 14px;
+    height: 14px;
+}
+
+#jiaNav span {
+    font-size: 12px
+}
+
+#jiaNav .right {
+    float: right;
+    font-size: 14px
+}
+
+#jiaNav .right span:first-child {
+    color: #f10180;
+    font-size: 14px
+}
+
+#jiaNav .right span:nth-child(2),
+span:nth-child(3) {
+    border: 1px solid #b2b2b2;
+    color: #c3b9c3;
+}
+
+#jiaNav .right span:nth-child(3) {
+    border: 1px solid #b2b2b2;
+    color: #c3b9c3;
+}
+
+#footer {
+    margin-top: 5px;
+}
+
+#footer .product {
+    width: 274px;
+    min-height: 460px;
+    float: left;
+    margin-right: 18px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+#footer .product li img {
+    width: 228px;
+    height: 288px;
+    text-align: center;
+}
+#footer .product li{
+    width: 280px;
+    overflow: hidden;
+}
+#footer .product .li1 {
+    background: #f10180;
+    color: white;
+    font-size: 12px;
+}
+
+#footer .product .li1 span:nth-of-type(1){
+    font-size: 16px;
+    padding-left: 12px;
+}
+#footer .product .li1 span:nth-of-type(2){
+    font-size: 18px;
+    font-weight: 800;
+}
+#footer .product .li1 span:nth-of-type(3){
+    font-size: 26px;
+    font-weight: 800;
+    color: #fff;
+}
+.li2{
+    color: #999;
+    font-size: 18px;
+    margin: 10px 0 16px 0;
+}
+.li3{
+    color: #666;
+    font-size: 14px;
+}

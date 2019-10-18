@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#index-footer{  
+    height: 616px;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    background: #fcfcfc
+}
+#index-footer>.footer-inner{
+    width: 1200px;
+    height: 555px;
+    margin: 0 auto;
+}
+.footer-inner>.footer-vip{
+    width: 1200px
+}
+.footer-inner>.footer-vip>img{
+    width: 100%
+}
+.footer-inner>.footer-list{
+    height: 214px;
+}
+.footer-inner>.footer-list>ul{
+    float: left;
+    width: 181px;
+    height: 182px;
+    border-right: 1px solid #e0e0e0;
+    padding-left: 21px
+}
+.footer-inner>.footer-list>ul>p{
+    font-size: 13px;
+    margin-bottom: 13px;
+    color: #4d4d4d
+}
+.footer-inner>.footer-list>ul span{
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: #6a6d6d;
+    margin-right: 4px;
+    margin-bottom: 1px
+}
+.footer-inner>.footer-list>ul a{
+    font-size: 13px;
+    color: #808080
+}
+.footer-inner>.footer-list>ul>li:hover span{
+    background: #d7237e;
+}
+.footer-inner>.footer-list>ul a:hover{
+    color: #d7237e
+}
+.footer-inner>.footer-list>.footer-list-last{
+    float: left;
+    margin-left: 27px;
+    font-size: 13px;
+    color: #4d4d4d
+}
+.footer-inner>.footer-list>.footer-list-last>p{
+    margin-top: 4px
+}
+.footer-inner>.footer-list>.footer-list-last>img{
+    margin: 14px 0 9px 0
+}
+.footer-inner>.footer-inFor{
+    height: 163px;
+}
+.footer-inFor>.footer-inFor-link{
+    height: 37px;
+    background: #d7237e
+}
+.footer-inFor>.footer-inFor-link>p{
+    text-align: center;
+    line-height: 37px;
+    color: #ffffff
+}
+.footer-inFor>.footer-inFor-link>p>a{
+    font-size: 13px;
+    color: #ffffff;
+    margin-left: 8px;
+    margin-right: 4px
+}
+.footer-inFor>.footer-inFor-link>p>a:hover{
+    color: #999999
+}
+.footer-inFor>.footer-inFor-txt{
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 18px
+}
+.footer-inFor>.footer-inFor-txt>a{
+    color: #808080
+}
+.footer-inFor>.footer-inFor-txt>a:hover{
+    color: #d7237e
+}
+
+
+#index-footer>.footer-ft{
+    width: 1200px;
+    margin: 0 auto;
+    height: 61px; 
+}
+#index-footer>.footer-ft>.footer-pic{
+    text-align: center;
+    height: 60px;
+    line-height: 60px
+}
+#index-footer>.footer-ft>.footer-pic>a{
+    margin-right: 16px
+}
+#index-footer>.footer-ft>.footer-pic img{
+    margin-top: 12px
+}

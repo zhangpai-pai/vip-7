@@ -1,0 +1,350 @@
+body,html,ul,ol,li,span,p,form,dl,dt,dd,input,h1,h2,h3,h4,h5,h6,table,tr,td,i,b,strong,img,a,em,fieldset,legend,
+
+select {
+    margin: 0;
+    padding: 0;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.content {
+    width: 1460px;
+    margin: 0 auto;
+    position: relative;
+    height: 730px;
+}
+
+.bigimg {
+    width: 525px;
+    height: 525px;
+    margin-top: 40px;
+    float: left;
+    overflow: hidden;
+}
+
+.bigimg img {
+    width: 525px;
+    height: 525px;
+}
+
+.xiangqing {
+    width: 700px;
+    height: 530px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+    float: left;
+}
+
+.minul {
+    margin-top: 10px;
+    width: 530px;
+    height: 75px;
+    float: left;
+}
+
+.minul img {
+    display: inline-block
+}
+
+.minul ul>li {
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    height: 64px;
+}
+
+
+.spname {
+    font-size: 18px;
+    color: #333;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.jiage {
+    width: 100%;
+    height: 110px;
+    background: #faf5f8;
+}
+
+.jiage p {
+    display: block;
+    float: left;
+    width: 30%;
+    height: 90px;
+    font-size: 18px;
+}
+
+.jiage p:nth-child(1) {
+    color: rgb(244, 52, 153)
+}
+
+.jiage p:nth-child(1) span {
+    font-size: 80px;
+}
+
+.jiage p:nth-child(2) {
+    line-height: 160px;
+    color: #999999;
+}
+
+.dizhi,
+.chima {
+    margin-top: 20px;
+}
+
+.content span {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.dizhi select,
+input {
+    margin-left: 30px;
+    width: 320px;
+    height: 30px;
+}
+.content .dizhi{
+    position: relative;
+}
+.content .dizhi p{
+    display: inline-block;
+    width: 313px;
+    height: 38px;
+    border: 1px solid #cccccc;
+    text-indent: 12px;
+    line-height: 38px;
+    margin-left: 15px;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+    
+}
+.content .dizhi i{
+    display: inline-block;
+    border: 6px solid transparent;
+    border-top-color: #ccc;
+    position: absolute;
+    right: 10px;
+    top: 15px;   
+}
+.content .dizhi .dizhi-main{
+    width: 608px;
+    height: 376px;
+    background: #fff;
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    border: 1px solid #ccc;
+    z-index: 99;
+}
+.content .dizhi .dizhi-main .title{
+    width: 569px;
+    height: 38px;
+    background:#fff;
+    border-bottom:  1px solid #ccc;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+.content .dizhi .dizhi-main .title .line{
+    width:90px;
+    height: 3px;
+    background: #f10180;
+    position: absolute;
+    top: -1px;
+    z-index: 99;
+}
+.dizhi-main .title .sheng{
+    border-bottom: 1px solid #fff
+}
+.dizhi-main .title .shi{
+    left: 89px;
+}
+.dizhi-main .title .qu{
+    left: 178px;
+}
+.dizhi-main .title .jie{
+    left: 267px;
+}
+.dizhi-main .title .sheng,.shi,.qu,.jie{
+    width: 88px;
+    height: 38px;
+    border: 1px solid #ccc;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    position: absolute;
+    top: -1px;
+    cursor: pointer;
+}
+.dizhi-main .title .sheng{
+    border-bottom: 1px solid #fff
+}
+.dizhi-main .conn{
+    width: 569px;
+    height:262px;
+    position: absolute;
+    top:80px;
+    left: 19px;
+    cursor: pointer;
+}
+.dizhi-main .conn .conn-1 li{
+    float: left;
+    width: 73px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    /* background: #f10180; */
+    margin-right: 19px;
+    margin-left: 19px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    border: 1px solid #fff
+}
+.dizhi-main .conn .conn-1 li:hover{
+    border: 1px solid #f10180;
+    color: #f10180
+}
+
+.dizhi-main .conn .conn-2 li{
+    float: left;
+    width: 73px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    /* background: #f10180; */
+    margin-right: 19px;
+    margin-left: 19px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    border: 1px solid #fff
+}
+.dizhi-main .conn .conn-2 li:hover{
+    border: 1px solid #f10180;
+    color: #f10180
+}
+.dizhi-main .conn .conn-3 li{
+    float: left;
+    width: 73px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    /* background: #f10180; */
+    margin-right: 19px;
+    margin-left: 19px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    border: 1px solid #fff
+}
+.dizhi-main .conn .conn-3 li:hover{
+    border: 1px solid #f10180;
+    color: #f10180
+}
+.dizhi-main .conn .conn-4 li{
+    float: left;
+    width: 73px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    /* background: #f10180; */
+    margin-right: 19px;
+    margin-left: 19px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    border: 1px solid #fff
+}
+.dizhi-main .conn .conn-4 li:hover{
+    border: 1px solid #f10180;
+    color: #f10180
+}
+
+.chima span {
+    float: left;
+}
+
+.shuliang span {
+    float: left;
+}
+
+.chima>div {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #999999;
+    background: #fff;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+
+.shuliang {
+    width: 320px;
+    margin-top: 100px;
+
+}
+
+.liang {
+    width: 91px;
+    height: 36px;
+    border: 1px solid #b3b3b3;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.liang .num{
+    width: 37px;
+    border-left: 1px solid #e4e3e3;
+    border-right: 1px solid #e4e3e3
+}
+.liang div{
+    width: 26px;
+    height: 36px;
+    float: left;
+    text-align: center;
+    line-height: 36px
+}
+
+.addCart{
+    width: 247px;
+    height: 58px;
+    background: #f10180;
+    margin-top: 200px;
+    margin-left: 70px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.bianma {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 930px;
+    height: 30px;
+    float: left;
+}
+.bianma p{
+    color: rgb(179,153,166);
+}

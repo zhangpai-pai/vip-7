@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0
+}
+a { 
+    text-decoration:none;
+    color: #000000;
+   }
+
+li{
+    list-style: none;
+}
+
+.haeder {
+    position: relative;
+    height: 100px;
+    .one {
+        position: absolute;
+        top: 20px;
+        left: 460px;
+    }
+    .two {
+        position: absolute;
+        top: 40px;
+        right: 480px;
+    }
+}
+.content {
+    position: relative;
+    height: 650px;
+    background: url(../img/loginImg/bj.jpg) no-repeat;
+    .login {
+        width: 360px;
+       
+        float: right;
+        /*将div标签向右对齐*/
+        margin-right: 370px;
+        margin-top: 50px;
+    
+        text-align: center;
+        width: 360px;
+        height: 434px;
+        background: #ffffff;
+        .top{
+            height: 50px;
+            
+            border-bottom: 1px solid#e0e0e0;
+        }
+        .mainbb{
+            float: left;
+            width: 360px;
+            height: 384px;
+            text-align: center;
+        }
+        .weixin{
+            margin-top: 10px;
+        }
+        li,a{
+            float: left;
+            margin-left:10px;
+            font-size: 12px;
+            line-height: 40px;
+        }
+        .aaa{
+            color: #000000;
+            margin-left: 90px;
+            font-size: 14px;
+        }
+        .top p{
+            margin-left: 150px;
+            float: left;
+            line-height: 50px;
+            &:nth-child(1){
+                color: #f10180;
+            }
+        }
+        .erwei{margin-top:60px;}
+        input{
+            width: 300px;
+            height: 40px;
+            margin-top:15px;
+        }
+        &:nth-child(1){
+            margin-top: 15px;
+        }
+        .mainbb {
+            p{
+                float: right;
+                margin-right: 30px;
+                margin-top: 30px;
+                line-height: 50px;
+                font-size: 12px;
+            }
+            .btn{
+                width: 300px;
+                height: 40px;
+                background: rgb(241,1,128);
+                line-height: 40px;
+                color: #ffffff;
+                margin-left: 0px;
+                margin-top: 0px;
+                span{
+                    margin-left: 50px;
+                }
+            }
+        }
+    }
+}
+.footer {
+    height: 190px;
+    text-align: center;
+    line-height: 120px;
+}
+.iconfont{
+    margin-top: 35px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 20px;
+}

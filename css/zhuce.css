@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.haeder {
+    position: relative;
+    height: 100px;
+}
+
+.haeder .one {
+    position: absolute;
+    top: 20px;
+    left: 460px;
+}
+
+.haeder .two {
+    position: absolute;
+    top: 40px;
+    right: 480px;
+}
+
+.logo {
+    background: url("img/logo.png");
+    width: 174px;
+    height: 79px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.service {
+    margin-top: 20px;
+    background: url("img/service.png");
+    width: 321px;
+    height: 55px;
+    float: right;
+    margin-right: 200px;
+
+}
+
+
+.content {
+    width: 1920px;
+    height: 650px;
+    background: url(../img/loginImg/bj.jpg) no-repeat;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.main {
+    width: 360px;
+    height: 450px;
+    float: right;
+    margin-right: 370px;
+    margin-top: 50px;
+    padding: 20px 20px 30px 20px;
+    background: white;
+    text-align: center;
+}
+
+#registerText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#loginText {
+    float: right;
+    display: inline;
+}
+
+.main input {
+    margin-top: 20px;
+    height: 40px;
+    width: 300px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.main .code {
+    width: 140px;
+}
+
+.main input[type='checkbox'] {
+    width: 14px;
+    height: 14px;
+}
+
+.main input[type='submit'] {
+    background: #f10180;
+    color: white;
+    border: 1px solid #f10180;
+    text-align: center;
+}
+
+
+.main a {
+    text-decoration: none;
+    color: #1d94d1;
+    font-size: 13px;
+}
+
+.main #loginText a {
+    color: #f10180;
+    font-size: 15px;
+}
+
+.footer {
+    height: 190px;
+    text-align: center;
+    line-height: 120px;
+}

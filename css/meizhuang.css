@@ -1,0 +1,32 @@
+
+/* header */
+.header{height: 260px;width: 1920px;background: #000;}
+
+/* banner */
+.banner{height: 360px;width: 1920px;}
+/* nav */
+.nav{height: 720px;width: 1920px;}
+.nav .nav-con{height: 720px;width: 1460px;margin-left:230px ;}
+.nav .con-top{height: 131px;background: url(../img/meizhuang/nav_03.gif)}
+.nav .con-bottom{height:546px;width:1460px;}
+.nav .con-bottom-left{height: 546px;width:360px;float: left;}
+.nav .con-bottom-left img{width: 100%;}
+.nav .con-bottom-left:hover{opacity: 0.5;}
+
+.nav .con-bottom-right{height: 546px;width: 1090px;float: left;}
+.nav .con-bottom-right ul li{width: 270px;height: 272px;float: left; border: 1px solid #eee}
+.nav .con-bottom-right ul li:hover{opacity: 0.5;}
+
+
+/* product */
+.product{width: 1920px;height: 1500px;}
+.product .product-con{width: 1460px;margin-left:230px ;}
+.product .conn-top{height: 171px;width: 1460px;background: url(../img/meizhuang/nav_06.png)}
+.product .conn-bottom{width:1460px;background: rgb(143, 133, 133);}
+.product .conn-bottom  ul{width: 1460px;}
+.product .conn-bottom  ul li{width: 713px;height: 461px;float: left;}
+.product .conn-bottom  ul li img{width: 100%;}
+.product .conn-bottom  ul li:hover{opacity: 0.5;}
+
+/* footer */
+.footer{height: 617px;width: 1920px;}

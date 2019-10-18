@@ -1,0 +1,281 @@
+/* 公用的 */
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+tr,
+th,
+td,
+a,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+img,
+input,
+p {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+}
+
+ul li,
+ol li {
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.main {
+    width: 1460px;
+    margin: 0 auto;
+}
+
+body {
+    width: 1920px;
+}
+
+.head {
+    width: 100%;
+    height: 173px;
+    background-color: burlywood;
+}
+
+
+
+/* 热门分类头部 */
+.HotCategories {
+    width: 1464px;
+    min-height: 516px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.HotCategories-head {
+    min-height: 132px;
+    position: relative;
+}
+
+.HotCategories-head-xian {
+    width: 480px;
+    height: 1px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 496px;
+    top: 69px;
+}
+
+.HotCategories-head-text {
+    width: 200px;
+    height: 132px;
+    position: absolute;
+    left: 632px;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    top: -6px;
+
+}
+
+.HotCategories-head-text h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+}
+
+.HotCategories-head-text p {
+    text-align: center;
+    margin-top: 1px;
+    color: #d9d9d9;
+}
+
+
+
+/* 热门分类导航 */
+.HotCategories-Main {
+    min-height: 386px;
+    border: 2px solid #d9d9d9;
+}
+
+.HotCategories-Main-nav {
+    float: left;
+    width: 238px;
+    height: 386px;
+    text-align: center;
+    color: #666666;
+    font-size: 24px;
+    letter-spacing: 10px;
+    position: relative;
+}
+
+.HotCategories-Main-nav li:hover {
+    background: rgba(244, 244, 244, 0.5)
+}
+
+.HotCategories-Main-nav ul li {
+    line-height: 128px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ffffff;
+}
+
+.HotCategories-Main-nav ul li:nth-of-type(3) {
+    border-bottom: none;
+}
+
+.HotCategories-Main-nav ul li span {
+    position: absolute;
+    font-size: 24px;
+    left: 60%;
+
+}
+
+/* 热门分类列表 */
+.HotCategories-MainBox {
+    width: 1222px;
+    height: 386px;
+    float: right;
+    overflow: hidden;
+}
+
+.HotCategories-Main-coment {
+    min-height: 1158px;
+    width: 1222px;
+    position: relative;
+}
+
+.HotCategories-Main-coment1,
+.HotCategories-Main-comen2,
+.HotCategories-Main-comen3 {
+    width: 1222px;
+    height: 386px;
+}
+
+.HotCategories-Main-coment1 dl,
+.HotCategories-Main-coment2 dl,
+.HotCategories-Main-coment3 dl {
+    width: 244px;
+    height: 192px;
+    float: left;
+}
+
+.HotCategories-Main-coment1 dt img,
+.HotCategories-Main-coment2 dt img,
+.HotCategories-Main-coment3 dt img {
+    margin: 44px 0px 20px 74px;
+    width: 100px;
+    height: 100px;
+}
+
+.HotCategories-Main-coment dt img:hover {
+    opacity: 0.6;
+}
+
+.HotCategories-Main-coment dd {
+    text-align: center;
+}
+
+
+
+.shopList-coment1:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 商品列表头部*/
+.shopList-title {
+    position: relative;
+    height: 86px;
+    margin-bottom: 40px;
+}
+
+.shopList-title img {
+    width: 1464px;
+    position: absolute;
+
+}
+
+/* 商品列表主体------------------------ */
+.shopList-coment dl {
+    float: left;
+}
+
+.shopList-coment dl img {
+    width: 712px;
+}
+.shopList-coment dt {
+    margin-right: 36px;
+    position: relative;
+}
+/* 品牌图标------- */
+.housePingPai {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 4px;
+    padding-right: 10px;
+    display: none;
+}
+
+.housePingPai span {
+    padding-left: 10px;
+    color: #ff0080;
+}
+.housePingPai:hover{
+    background-color: #ff0080;
+    color: #fff;
+}
+
+/* -----列表标题 */
+.shopList-coment h2 {
+    font-size: 26px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 12px
+}
+
+.shopList-coment p {
+    font-size: 22px;
+    color: #4d4d4d;
+    margin-bottom: 40px;
+}
+
+.shopList-coment p span {
+    color: #f10582;
+    font-size: 24px;
+    font-weight: bold;
+}
+

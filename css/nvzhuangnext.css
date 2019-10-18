@@ -1,0 +1,256 @@
+a {
+    color: #000;
+    
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.header {
+    height: 173px;
+    background: #c8251e;
+}
+
+.special {
+    height: 280px;
+    margin-top: 30px;
+}
+
+.special span {
+    line-height: 27px;
+    margin-top: 30px;
+    font-size: 18px;
+    display: block;
+
+}
+
+.special span b {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.special span em {
+    font-style: normal;
+    font-size: 14px;
+}
+
+.special table {
+    margin-top: 10px;
+    min-height: 228px;
+    width: 998px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.special table tr {
+    height: 10px;
+    text-align: center;
+
+}
+
+.special table td {
+    height: 55px;
+    width: 100px;
+    border-bottom: 1px dashed #ccc;
+}
+.special table td:hover {
+    color: #c8251e;
+}
+
+#nav {
+    overflow: hidden;
+    z-index: 10;
+}
+
+#nav .main {
+    background: #f2f2f2;
+}
+
+#nav ul {
+    float: left;
+    
+}
+
+#nav ul li {
+    float: left;
+    height: 46px;
+    width: 67px;
+    color: black;
+    line-height: 46px;
+    text-align: center;
+}
+
+#nav ul li:hover {
+    color: #c8251e;
+}
+
+.price {
+    float: left;
+}
+
+.prices {
+    width: 60px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.price span {
+    margin-left: 20px;
+    display: none;
+    background: #c8251e;
+    color: #fff;
+}
+
+.chek {
+    float: left;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.right {
+    font-size: 14px;
+    padding-top: 15px;
+    float: right;
+}
+
+.right span {
+    margin-left: 20px;
+}
+
+.right span em {
+    font-style: normal;
+    color: #c8251e;
+}
+
+.prev {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background: #f2f2f2;
+    width: 24px;
+    height: 24px;
+    display: block;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: -5px;
+
+}
+
+.next {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f2f2f2;
+    width: 70px;
+    height: 24px;
+    display: block;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.right-ne {
+    float: right
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 13%;
+}
+
+.product dl {
+    float: left;
+    width: 25%;
+    position: relative;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.product .main div {
+    width: 235px;
+    height: 28px;
+    background: linear-gradient(to left, #f10180, #fb2e23);
+    position: absolute;
+    bottom: 50px;
+}
+
+.product dl div span {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.product dl div b {
+    font-size: 20px;
+    color: #fff;
+    font-style: normal;
+}
+
+.product dl dd i {
+    text-decoration: line-through;
+    color: #c9c9c9;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.product dl dd span {
+    color: #c9c9c9;
+    font-size: 16px;
+}
+
+.product dl dd {
+    color: #666;
+}
+
+.product dl:hover {
+    box-shadow: 0 10px 50px rgba(51, 51, 51, .25);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    transform: translateY(-2px)
+}
+
+.list ul {
+    margin-left: 25%;
+}
+
+.list ul li {
+    float: left;
+    line-height: 46px;
+    width: 46px;
+    text-align: center;
+    background-color: #fff;
+    color: #ccc;
+    margin-right: 10px;
+    border-radius: 4px;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+}
+
+.list ul li:hover {
+    background: #fff;
+    color: #f10180;
+    border: 1px solid #f10180;
+}
+.list .one{
+    border: #fff;
+    color: #000;
+}
+.list .one:hover{
+    background: #fff;
+    color:#000;
+    border: 1px solid #fff;
+}
+.list .four{
+    border: #fff;
+    color: #000;
+}
+.list .four:hover{
+    background: #fff;
+    color:#000;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,138 @@
+/* 公用的 */
+html,body,ul,ol,li,dl,dt,dd,table,tr,th,td,a,form,h1,h2,h3,h4,h5,h6,i,img,input,p{margin: 0; padding: 0;margin: 0 auto}
+a{
+	text-decoration: none;color: #333;
+}
+img{vertical-align: top;border: none;}
+ul li,ol li{list-style: none;}
+
+input{cursor:pointer;}
+.clearfix:after{
+	content:"";visibility: hidden; display: block;clear:both;height: 0;font-size: 0;overflow: hidden;
+}
+.main{
+    width: 1480px;margin: 0 auto;
+}
+
+body{
+    width: 1920px;
+}
+.header{
+    width: 100%;
+    height: 173px;
+    background-color: burlywood;
+}
+
+/* banner----------- */
+.panicBanner img,.panicTitle img{
+    display: block;
+}
+
+/* 主体------------ */
+.panicList{
+    background-color: #f9f9f9;
+    padding-top: 38px;
+}
+.panicList ul{
+    height: 100%;
+}
+.panicList .main>li{
+    float: left;
+    width: 713px;
+    margin-right: 26px;
+    margin-bottom: 36px;
+    box-shadow:4px 4px 20px 10px #e9e9e9;
+}
+/* 大图区域----------- */
+.pcListImg{
+    width: 713px;
+    height: 341px;
+    position: relative;
+    margin-bottom: 14px;
+}
+.pcListImg img{
+    width: 100%;
+}
+.pcListImg p{
+    width: 67px;
+    position: absolute;
+    right: 20px;
+    top:0;
+}
+/* 品牌图 ------------ */
+.pcpPingPai{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding:4px;
+    display: none;
+}
+.pcpPingPai span{
+    color: #ff0080;
+}
+.pcpPingPai:hover{
+    background-color: #ff0080;
+    color: #fff;
+}
+/* 三个小图----------- */
+.pcMinImg{
+    background-color:#fafafa; 
+}
+.pcMinImg ul li{
+    width: 218px;
+    height: 275px;
+    float: left;
+    padding-right: 0;
+    padding-left: 16px;
+    position: relative;
+}
+.pcMinImg li img{
+    width: 218px;
+    height: 275px;
+}
+.pcMinImg ul li p{
+    width: 218px;
+    line-height: 36px;
+    font-size: 14px;
+    background:rgba(250, 250, 250, 0.8);
+    position: absolute;  
+    bottom: 0;
+    
+}
+.pcMinImg li p span:nth-of-type(1){
+    color: #f10582;
+    padding-left: 16px;
+}
+.pcMinImg li p span:nth-of-type(2){
+    color: #f10582;
+    font-size: 24px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+.pcMinImg li p s{
+    padding-right: 10px;
+    color: #4d4d4d;
+}
+/* 一个的底部 */
+.pcListBom{
+    height: 50px;
+    background: #fff;
+}
+.pcListBom span:nth-of-type(1){
+    font-size: 30px;
+    color: #f10582;
+    font-weight: 900;
+    margin-left: 14px;
+    padding-right: 6px;
+}
+.pcListBom span:nth-of-type(2){
+    font-size: 14px;
+    padding-right: 20px;
+    color: #666666;
+}
+.pcListBom span:nth-of-type(3){
+    font-size: 18px;
+    color: #666666;
+}

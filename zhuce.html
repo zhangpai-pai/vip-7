@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/zhuce.css">
+</head>
+
+<body>
+    <div class="haeder">
+        <img src="img/loginImg/dllogo.png" alt="" class="one">
+        <img src="img/loginImg/dltop2.png" alt="" class="two">
+    </div>
+    <div class="content">
+        <div class="main">
+            <span id="registerText">会员注册</span>
+            <div id="loginText">已注册可<a href="login.html">直接登录</a></div>
+            <hr/>
+       
+            <input type="text" placeholder="请输入用户名" id="uname"><br />
+            <div class="error-z" ></div>
+             <input type="password" placeholder="请输入密码"   id="pwd"><br />
+              <div class="error-mm" ></div>
+            <input type="password" placeholder="确认密码" id="pwd2"><br />
+             <div class="error-qm" ></div>
+            
+            <br/>
+           
+            <input type="checkbox" >我已阅读并接受以下条款：
+            <a href="#">《唯品会服务条款》 </a>
+            <a href="#">《隐私条款》 </a>
+            <a href="#">《唯品支付用户服务协议》 </a>
+            <a href="#">《唯品信用服务协议》 </a>
+            <br/>
+            <input type="submit" value="立即注册" id="btn"><br/>
+       
+        </div>
+    </div>
+    <div class="footer">
+        Copyright 2008- 2019 vip.com, All Rights Reserved ICP证:粤B2-20080329
+    </div>
+</body>
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./js/zhuce.js"></script>
+ <script>
+     var fn = function (data) {
+        console.log(data)
+        if (data.err == 0) {
+            alert(data.msg);
+            window.location.href = 'http://10.36.144.137/VIP1/login.html';
+        }
+    }
+</script>
+</html>

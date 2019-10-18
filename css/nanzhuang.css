@@ -1,0 +1,259 @@
+body,html{
+    height: 100%;
+}
+.public{
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+
+.header{
+    height: 30px;
+    background: #f1f3f4;
+    
+}
+
+.header ul li:nth-child(1) {
+        float: left;
+        line-height: 30px;
+        
+}
+
+.header ul li{
+    float: right;
+    line-height: 30px;
+    padding-right: 30px;
+}
+
+.logo{
+    height: 100px;
+    background: #fff;
+}
+
+
+
+/* .banner{
+    
+    background: #b0fff7;
+} */
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.kongbai-1{
+    height: 116px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 116px;
+}
+
+.content .public{
+    border: 1px solid black;
+}
+
+.content-left{
+    background: #333333;
+    height: 255px;
+    width: 154px;
+    font-weight: 700;
+    color: white;
+    /*padding-top: 10px;*/
+}
+
+.content .tuijian{
+    height: 248px;
+    
+}
+
+/*.content-left ul li span{
+    width: 155px;
+    height: 60px;
+    background:#c79669;
+    display: block;
+}*/
+
+.content-left ul li:hover{
+    
+    
+    background:#c79669;
+    
+    
+}
+
+.content-left ul li:nth-child(1) {
+    width: 155px;
+    height: 60px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+
+
+.content-left ul li:nth-child(2) {
+    width: 155px;
+    height: 60px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.content-left ul li:nth-child(3) {
+    width: 155px;
+    height: 60px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.content-left ul li:nth-child(4) {
+    width: 155px;
+    height: 80px;
+    border-bottom: 1px solid #666;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+.tuijian{
+    
+    position: relative;
+    overflow: hidden;
+    /*overflow: hidden;*/
+}
+
+.clother{
+    width: 856px;
+    height: 246px;
+    /*background: red;*/
+    float: right;
+    position: absolute;
+    left: 140px;
+    
+}
+
+.right{
+    width: 850px;
+    height: 246px;
+    
+    float: right;
+    
+}
+
+.right li{
+    width: 90px;
+    height: 150px;
+    background: yellow;
+    
+}
+
+.right img{
+    float: left;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.kongbai-2{
+    height: 135px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 116px;
+}
+
+.zhanshi{
+    min-height: 1000px;
+    
+    
+}
+
+.zhanshi ul {
+    float: left;
+}
+
+.zhanshi .z-1 img{
+    width: 487px;
+    height: 234px;
+}
+
+.z-1{
+    width: 492px;
+    height: 330px;
+    margin-left: 8px;
+    float: left;
+    
+}
+
+.z-1 h4{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.z-1 span{
+    font-size: 12px;
+}
+
+.last{
+    height: 496px;
+    background: #fcfcfc;
+    border: 1px solid #c1c1c1;
+}
+
+.last .one{
+    height: 140px;
+    
+}
+
+
+
+.last .one ul li{
+    width: 70px;
+    height: 70px;
+    background: #d4d4d4;
+    float: left;
+    margin-right:30px;
+    
+}
+
+.last .two{
+    height: 175px;
+    
+}
+
+.last .two dl{
+    width: 150px;
+    height: 170px;
+
+    float: left;
+    margin-left: 20px;
+}
+
+.last .three{
+    height: 30px;
+    background: #f10180;
+}
+
+.last .three ul {
+    padding-left: 210px;
+}
+
+.last .three ul li{
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.last .three ul li a{
+    color: white;
+}
+
+.last .four{
+    height: 150px;
+    
+    text-align: center;
+    padding-top: 20px;
+}

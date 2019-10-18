@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/font/iconfont.css">
+</head>
+
+<body>
+    <div class="haeder">
+        <img src="img/loginImg/dllogo.png" alt="" class="one"><img src="img/loginImg/dltop2.png" alt="" class="two">
+    </div>
+    <div class="content">
+        <div class="login">
+            <div class="top">
+
+                <p>账号登录</p>
+            </div>
+            
+            <div class="mainbb">
+            
+                <input type="text" class="iconfont" placeholder="&#xe633;手机号/用户名/邮箱"  id="uname"><br>
+                
+                            <div class="error-z"></div  ->
+                      
+                <input type="password" class="iconfont" placeholder="&#xe620;请输入密码" id="pwd" autocomplete="on">
+                
+                            <div class="error-m"></div>
+                       
+                <p>忘记密码</p>
+                <input type="submit" class="btn"  id="btns" value="登录">
+          
+                <img src="img/loginImg/weixin.png" class="weixin" alt="">
+                <div>
+                    <li><a href="">新浪微博</a></li>
+                    <li>|</li>
+                    <li><a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&client_id=101477621&redirect_uri=https%3A%2F%2Fsso.e.qq.com%2Fpassport%3Fsso_redirect_uri%3Dhttp%253A%252F%252Funion.qq.com%252F%26service_tag%3D14&scope=get_user_info">QQ</a></li>
+                    <li>&nbsp;&nbsp;|</li>
+                    <li><a href="https://authgtj.alipay.com/login/index.htm">支付宝</a></li>
+                </div>
+                <div><a href="zhuce.html" class="aaa">免费注册</a></div>
+            </div>                                                                 
+
+        </div>
+    </div>
+    <div class="footer">
+        Copyright 2008- 2019 vip.com, All Rights Reserved ICP证:粤B2-20080329
+    </div>
+
+</body>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="./js/login.js"></script>
+    <script>
+     var fn = function (data) {
+        console.log(data)
+        if (data.err == 0) {
+            alert(data.msg);
+            
+            window.location.href = 'http://10.36.144.137/VIP1/index.html';
+        }
+    }
+</script>
+</html>
